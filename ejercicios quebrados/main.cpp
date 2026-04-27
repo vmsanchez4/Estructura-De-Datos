@@ -22,8 +22,8 @@ int main() {
     cout << "Denominador: "; cin >> d;
     q2.setDenominador(d);
 
-    resultado.sumar(q1, q2);
-
+    //resultado.sumar(q1, q2);
+/*
     cout << "\n--- Resultado de la Suma ---" << endl;
     q1.mostrar();
     cout << " + ";
@@ -31,6 +31,11 @@ int main() {
     cout << " = ";
     resultado.mostrar();
     cout << endl;
+*/
+    cout << "\n--- Resultado de la Division (q1 / q2) ---" << endl;
+    resultado = q1 / q2;
+    resultado.mostrar();
+
 
     return 0;
 }

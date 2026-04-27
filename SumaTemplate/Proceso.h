@@ -14,7 +14,9 @@ class Quebrado;
 template <class T>
 class Proceso {
 public:
-    virtual Quebrado<T> sumar(const Quebrado<T>& q1) const = 0;
+    
+    virtual Quebrado<T> sumar(Quebrado<T> q1) = 0;
+    virtual Quebrado<T> sumar(Quebrado<T> q1, Quebrado<T> q2) = 0;
 
     virtual ~Proceso() = default;
 };

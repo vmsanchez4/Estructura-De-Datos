@@ -1,9 +1,3 @@
-/***********************************************************************
- * Module:  Quebrado.cpp
- * Author:  USUARIO
- * Modified: mi�rcoles, 8 de abril de 2026 22:31:12
- * Purpose: Implementation of the class Quebrado
- ***********************************************************************/
 
 #include "Quebrado.h"
 #include <iostream>
@@ -36,4 +30,8 @@ void Quebrado::sumar(const Quebrado& q1, const Quebrado& q2) {
 
 void Quebrado::mostrar() const {
     cout << numerador << "/" << denominador;
+}
+
+Quebrado Quebrado::operator/(const Quebrado& q1) const {
+     return Quebrado(numerador * q1.getDenominador(), denominador * q1.getNumerador());
 }

@@ -1,9 +1,3 @@
-/***********************************************************************
- * Module:  Quebrado.h
- * Author:  USUARIO
- * Modified: mi�rcoles, 8 de abril de 2026 22:31:12
- * Purpose: Declaration of the class Quebrado
- ***********************************************************************/
 
 #ifndef QUEBRADO_H
 #define QUEBRADO_H
@@ -25,6 +19,8 @@ public:
 
     void sumar(const Quebrado& q1, const Quebrado& q2) override;
     void mostrar() const override;
+
+    Quebrado operator/(const Quebrado& q1) const;
 };
 
 #endif
