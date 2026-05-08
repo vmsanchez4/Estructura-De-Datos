@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-//manejo de memoria bit a bit ,a =5,b=7 intercambiar sin aux
-//Pruebas de Escrotorio
+
 class Nodo {
 public:
     string cedula;

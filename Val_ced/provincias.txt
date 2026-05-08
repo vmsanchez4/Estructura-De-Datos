@@ -1,0 +1,6 @@
+01,Azuay
+09,Guayas
+17,Pichincha
+23,Sto Domingo
+13,Manabi
+07,El Oro
