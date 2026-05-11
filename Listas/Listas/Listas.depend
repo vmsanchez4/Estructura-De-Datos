@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1777298095 source:c:\users\asus\onedrive\escritorio\listas\listacircular.cpp
+	"ListaCircular.h"
+	<iostream>
+
+1777265421 c:\users\asus\onedrive\escritorio\listas\listacircular.h
+	"Lista.h"
+	"Nodo.h"
+	<string>
+
+1777267175 source:c:\users\asus\onedrive\escritorio\listas\listacirculardoble.cpp
+	"ListaCircularDoble.h"
+	<iostream>
+
+1777266647 c:\users\asus\onedrive\escritorio\listas\listacirculardoble.h
+	"Lista.h"
+	"Nodo.h"
+	<string>
+
+1777298095 source:c:\users\asus\onedrive\escritorio\listas\listadoble.cpp
+	"ListaDoble.h"
+	<iostream>
+	<string>
+
+1777267177 c:\users\asus\onedrive\escritorio\listas\listadoble.h
+	"Lista.h"
+	"Nodo.h"
+	<string>
+
+1778239891 source:c:\users\asus\onedrive\escritorio\listas\listasimple.cpp
+	"ListaSimple.h"
+	"Nodo.h"
+	<iostream>
+
+1778239891 c:\users\asus\onedrive\escritorio\listas\listasimple.h
+	"Lista.h"
+	"Nodo.h"
+	<string>
+
+1778077963 c:\users\asus\onedrive\escritorio\listas\lista.h
+	<string>
+
+1777259641 c:\users\asus\onedrive\escritorio\listas\nodo.h
+	<string>
+
+1777259726 source:c:\users\asus\onedrive\escritorio\listas\nodo.cpp
+	"Nodo.h"
+	<string>
+
+1778240643 source:c:\users\asus\onedrive\escritorio\listas\listas\main.cpp
+	<iostream>
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	"../ListaSimple.h"
+	"OperacionesCedula.h"
+	<regex>
+	<fstream>
+
+1777259748 c:\users\asus\onedrive\escritorio\listas\listas\lista.h
+	<string>
+
+1778239891 source:c:\users\asus\onedrive\escritorio\listas\listas\operacionescedula.cpp
+	"OperacionesCedula.h"
+	<cctype>
+
+1777908134 c:\users\asus\onedrive\escritorio\listas\listas\operacionescedula.h
+	"Validaciones.h"
+	<string>
+
+1777909322 c:\users\asus\onedrive\escritorio\listas\listas\validaciones.h
+	<string>
+

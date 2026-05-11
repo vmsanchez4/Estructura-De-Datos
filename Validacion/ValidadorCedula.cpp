@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <regex>
 
 using namespace std;
 
@@ -104,32 +105,36 @@ void ValidadorCedula::reescribirArchivo() const {
     archivo.close();
 }
 
-bool ValidadorCedula::validar(string cedula) {
+bool ValidadorCedula::validar(const string& cedula) {
     if (cedula.length() != 10) {
         return false;
     }
 
-    for (int i = 0; i < 10; i++) {
-        if (!isdigit(cedula[i])) {
-            return false;
-        }
+    const regex patron("^[0-9]{10}$");
+    if (!regex_match(cedula, patron)) {
+        return false;
     }
-    
+
     int coeficientes[9] = {2, 1, 2, 1, 2, 1, 2, 1, 2};
     int suma = 0;
-    for (int i = 0; i < 9; i++) {
-        int digito = cedula[i] - '0';
-        int producto = digito * coeficientes[i];
-        
+    const char* ptr = cedula.c_str();
+    const int* coef = coeficientes;
+    const int* finCoef = coef + 9;
+
+    while (coef < finCoef) {
+        int digito = *ptr - '0';
+        int producto = digito * *coef;
         if (producto > 9) {
             producto -= 9;
         }
         suma += producto;
+        ++ptr;
+        ++coef;
     }
-    
+
     int residuo = suma % 10;
     int verificadorCalculado = (residuo == 0) ? 0 : 10 - residuo;
-    int verificadorReal = cedula[9] - '0';
+    int verificadorReal = *ptr - '0';
 
     return verificadorCalculado == verificadorReal;
 }

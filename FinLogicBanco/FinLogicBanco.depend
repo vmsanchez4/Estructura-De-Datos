@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1762814518 source:c:\users\det-pc\onedrive\escritorio\finlogicbanco\main.cpp
+	"Menus.h"
+	"Banco.h"
+	<iostream>
+
+1762746688 c:\users\det-pc\onedrive\escritorio\finlogicbanco\include\menus.h
+	"Banco.h"
+
+1762811414 c:\users\det-pc\onedrive\escritorio\finlogicbanco\include\banco.h
+	<string>
+	<unordered_map>
+	<vector>
+	"Usuario.h"
+
+1762978111 c:\users\det-pc\onedrive\escritorio\finlogicbanco\include\usuario.h
+	<string>
+	<vector>
+
+1762987109 source:c:\users\det-pc\onedrive\escritorio\finlogicbanco\src\banco.cpp
+	"Banco.h"
+	"Archivos.h"
+	"Validaciones.h"
+	<random>
+	<algorithm>
+	<fstream>
+
+1762978276 c:\users\det-pc\onedrive\escritorio\finlogicbanco\include\archivos.h
+	<string>
+	<vector>
+	"Usuario.h"
+
+1762991990 c:\users\det-pc\onedrive\escritorio\finlogicbanco\include\validaciones.h
+	<string>
+
+1762992375 source:c:\users\det-pc\onedrive\escritorio\finlogicbanco\src\menus.cpp
+	"Menus.h"
+	"Archivos.h"
+	"Validaciones.h"
+	<iostream>
+	<limits>
+	<algorithm>
+
+1762990980 source:c:\users\det-pc\onedrive\escritorio\finlogicbanco\src\usuario.cpp
+	"Usuario.h"
+	"Validaciones.h"
+	"Banco.h"
+	<random>
+	<sstream>
+
+1762992598 source:c:\users\det-pc\onedrive\escritorio\finlogicbanco\src\validaciones.cpp
+	"Validaciones.h"
+	<iostream>
+	<regex>
+	<cctype>
+	<limits>
+	<ctime>
+	<iomanip>
+	<sstream>
+	<algorithm>
+
+1762979042 source:c:\users\det-pc\onedrive\escritorio\finlogicbanco\src\archivos.cpp
+	"Archivos.h"
+	"Validaciones.h"
+	<filesystem>
+	<fstream>
+	<sstream>
+	<iomanip>
+
+1762814518 source:c:\users\ssjve\onedrive\desktop\finlogicbanco\main.cpp
+	"Menus.h"
+	"Banco.h"
+	<iostream>
+
+1777656596 c:\users\ssjve\onedrive\desktop\finlogicbanco\include\menus.h
+	"Banco.h"
+
+1777655734 c:\users\ssjve\onedrive\desktop\finlogicbanco\include\banco.h
+	<string>
+	<unordered_map>
+	<vector>
+	"Usuario.h"
+
+1777655664 c:\users\ssjve\onedrive\desktop\finlogicbanco\include\usuario.h
+	<string>
+	<vector>
+
+1777656285 source:c:\users\ssjve\onedrive\desktop\finlogicbanco\src\archivos.cpp
+	"Archivos.h"
+	"Validaciones.h"
+	<filesystem>
+	<fstream>
+	<sstream>
+	<iomanip>
+
+1762978276 c:\users\ssjve\onedrive\desktop\finlogicbanco\include\archivos.h
+	<string>
+	<vector>
+	"Usuario.h"
+
+1777655687 c:\users\ssjve\onedrive\desktop\finlogicbanco\include\validaciones.h
+	<string>
+
+1777656165 source:c:\users\ssjve\onedrive\desktop\finlogicbanco\src\banco.cpp
+	"Banco.h"
+	"Archivos.h"
+	"Validaciones.h"
+	<random>
+	<algorithm>
+	<fstream>
+
+1777656108 source:c:\users\ssjve\onedrive\desktop\finlogicbanco\src\menus.cpp
+	"Menus.h"
+	"Archivos.h"
+	"Validaciones.h"
+	<iostream>
+	<limits>
+	<algorithm>
+
+1762990980 source:c:\users\ssjve\onedrive\desktop\finlogicbanco\src\usuario.cpp
+	"Usuario.h"
+	"Validaciones.h"
+	"Banco.h"
+	<random>
+	<sstream>
+
+1777655713 source:c:\users\ssjve\onedrive\desktop\finlogicbanco\src\validaciones.cpp
+	"Validaciones.h"
+	<iostream>
+	<regex>
+	<cctype>
+	<limits>
+	<ctime>
+	<iomanip>
+	<sstream>
+	<algorithm>
+

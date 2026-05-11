@@ -1,0 +1,4 @@
+saldo:50.00
+depositado_hoy:100.00
+retirado_hoy:50.00
+fecha_resumen:2026-05-01

@@ -62,3 +62,4 @@ int main() {
 
     return 0;
 }
+//repasar lambda descargar el programa de git y usar el lambda de los dos campos que tenemos de cedula y nombre

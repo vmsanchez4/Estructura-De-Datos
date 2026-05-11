@@ -7,7 +7,7 @@ using namespace std;
 class Validador {
 public:
     virtual ~Validador() {}
-    virtual bool validar(string cedula) = 0;
+    virtual bool validar(const string& cedula) = 0;
     virtual void contarPorProvincia() = 0;
 };
 

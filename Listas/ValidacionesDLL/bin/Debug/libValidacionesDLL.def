@@ -1,0 +1,6 @@
+EXPORTS
+    DllMain @1
+    SomeFunction @2
+    _ZTI12Validaciones @3 DATA
+    _ZTV12Validaciones @4 DATA
+    crearValidaciones @5

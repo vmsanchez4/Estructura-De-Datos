@@ -1,0 +1,6 @@
+id:0550013361
+nombre:Sebastian
+pais:Ecuador
+extranjero:NO
+cedula:0550013361
+num_documento:

@@ -19,7 +19,7 @@ public:
     ValidadorCedula();
     ~ValidadorCedula();
     
-    bool validar(string cedula) override;
+    bool validar(const string& cedula) override;
     bool agregarRegistro(const string& cedula, const string& nombre);
     bool buscarCedula(const string& cedula) const;
     bool eliminarCedula(const string& cedula);

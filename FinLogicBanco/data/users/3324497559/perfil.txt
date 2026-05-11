@@ -1,0 +1,6 @@
+id:3324497559
+nombre:Pepe
+pais:Peru
+extranjero:SI
+cedula:
+num_documento:P12345678

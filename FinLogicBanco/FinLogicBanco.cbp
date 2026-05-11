@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FinLogicBanco" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FinLogicBanco" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FinLogicBanco" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Archivos.h" />
+		<Unit filename="include/Banco.h" />
+		<Unit filename="include/Menus.h" />
+		<Unit filename="include/Usuario.h" />
+		<Unit filename="include/Validaciones.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Archivos.cpp" />
+		<Unit filename="src/Banco.cpp" />
+		<Unit filename="src/Menus.cpp" />
+		<Unit filename="src/Usuario.cpp" />
+		<Unit filename="src/Validaciones.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
